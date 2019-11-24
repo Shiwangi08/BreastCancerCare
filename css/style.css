@@ -1,0 +1,260 @@
+.ui-btn-active.ui-state-persist{
+	background-color:#0d7aa6b5!important;
+}
+.ui-content{
+	background-color:#edc2b1;
+}
+#home .ui-content{
+	background-color:white!important;
+}
+#homepage .ui-content{
+  background-color:white!important;
+}
+#img1{
+    width: 91px;
+    height: 86px;
+    margin-left: 96px;
+    float: right;
+}
+#img2{
+    width: 69px;
+    height: 62px;
+}
+#img3{
+width:auto;
+}
+
+.ui-page .ui-header {
+    background:#ffffff!important;
+    height:87px;
+    position: fixed;
+}
+.ui-btn{
+	border-radius: 0px !important;
+
+}
+.ui-btn-left {
+ left:0em !important; 
+}
+.ui-btn-left, .ui-btn-right {
+    position: absolute !important;
+   top:0em !important;
+}
+.responsive {
+  width: 100%;
+  height:100%;
+}
+#left-panel{
+	background-color: red!important;
+	margin-top: 89px!important;
+	width: 100%!important;
+}
+#left-panel{
+	background-color: #ab0535 !important;
+}
+#left-panel .ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head + body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head + body .ui-btn.ui-btn-a:visited{
+	background-color:  #ab0535 !important;
+	border-color: #d29a8d!important;
+	color: white;
+	font-size:19px!important;
+    font-family: sans-serif;
+	font-weight: lighter;
+}
+.ui-page-theme-a .ui-btn.ui-btn-active, html .ui-bar-a .ui-btn.ui-btn-active, html .ui-body-a .ui-btn.ui-btn-active, html body .ui-group-theme-a .ui-btn.ui-btn-active, html head + body .ui-btn.ui-btn-a.ui-btn-active, .ui-page-theme-a .ui-checkbox-on:after, html .ui-bar-a .ui-checkbox-on:after, html .ui-body-a .ui-checkbox-on:after, html body .ui-group-theme-a .ui-checkbox-on:after, .ui-btn.ui-checkbox-on.ui-btn-a:after, .ui-page-theme-a .ui-flipswitch-active, html .ui-bar-a .ui-flipswitch-active, html .ui-body-a .ui-flipswitch-active, html body .ui-group-theme-a .ui-flipswitch-active, html body .ui-flipswitch.ui-bar-a.ui-flipswitch-active, .ui-page-theme-a .ui-slider-track .ui-btn-active, html .ui-bar-a .ui-slider-track .ui-btn-active, html .ui-body-a .ui-slider-track .ui-btn-active, html body .ui-group-theme-a .ui-slider-track .ui-btn-active, html body div.ui-slider-track.ui-body-a .ui-btn-active {
+	background-color:white !important;
+	border-color:white!important;
+	
+}
+
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      /*google map*/
+      #google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+#google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+p{
+  color:black;
+}
+
+#my-listview-id {
+   height:100%;
+}
+#my-listview-id li {
+    height:50%!important;
+}
+.center{
+font-family: sans serif !important;
+    color: black!important;
+    font-size: 20px !important;
+}
+.CANCER{
+	color:white;
+	font-weight:normal;
+	font-family: Arial;
+	font-size:15px;
+	letter-spacing:1px;
+}
+.logo{
+	width:300px;
+	height:300px;
+}
+#login{
+      background-color: #a03173;
+  color:white;
+  font-size:15px;
+
+}
+#member{
+      background-color: #a03173;
+  color:white;
+    font-size:15px;
+
+}
+
+.ui-block-b a #subbutton{
+   background-color:  #ab0535 !important;
+	border-color: #d29a8d!important;
+	color: white!important;
+	font-size:5px!important;
+	font-family:monospace;
+	font-weight: lighter;
+}
+.welcome{
+    font-size: 24px;
+    font-family: cursive;
+}
+/******css bmi*******/
+
+.ui-page-theme-a .ui-btn.ui-btn-active,{
+    background-color: #ffffff !important;
+    border-color: #d29a8d!important;
+    color: white;
+}
+/*****login css*/
+
+#loginform form{
+    background-color:#edc2b1!important;
+    display: inline-block;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 20px 5px black;
+    margin: 0;
+    padding: 10px;
+    width:100%;
+    max-width: 400px;
+}
+input {
+    box-shadow: 1px 1px 3px 1px black;
+    width: 100%;
+    text-align: center;
+}
+
+.submit {
+    display:inline-block;
+    color: white;
+    background-color: blue;
+    margin:0;
+    padding: 5px;
+    border: 0;
+    font-weight: bold;
+    width:100%;
+}
+.submit:hover {
+    color: blue;
+    background-color: white;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+#reminder-form form{
+    background-color:#edc2b1!important;
+    display: inline-block;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 20px 5px black;
+    margin: 0;
+    padding: 10px;
+    width:100%;
+    max-width: 400px;
+}
+input {
+    box-shadow: 1px 1px 3px 1px black;
+    width: 100%;
+    text-align: center;
+}
+
+.submit {
+    display:inline-block;
+    color: white;
+    background-color: blue;
+    margin:0;
+    padding: 5px;
+    border: 0;
+    font-weight: bold;
+    width:100%;
+}
+.submit:hover {
+    color: blue;
+    background-color: white;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+ p .weather{
+  font-size: 20px;
+  color: red;
+}
+/************bmi***************css***************/
+.recordTitle {
+    font-size:20px;
+    text-align: center;
+    margin-top: 50px; }
+.recordPart {
+    background-color:#edc2b1; }
+.recordPart .outputBMI {
+      font-size: 20px;
+      width:auto;
+      margin: 20px auto;
+      list-style: none;
+      float: left; }
+.recordPart .outputBMI li {
+        background-color: #fff;
+        margin-top: 16px;
+        height:auto;
+        padding-left: 12px;
+        line-height: 60px; 
+      float: left;}
+.recordPart .outputBMI li .titleHead {
+          width: 100px;
+          display: inline-block; }
+.recordPart .outputBMI li .titleName {
+          font-size: 12px;}
+.recordPart .outputBMI li .titleValue {
+          width: 60px;
+          display: inline-block; }
+
+.weatherdesc{
+  color:black;
+  font-size:17px;
+  font-family: sans-serif;
+}
+#resultDiv{
+background-color: antiquewhite;
+}
