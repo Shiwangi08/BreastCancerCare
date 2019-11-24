@@ -82,15 +82,12 @@
 <center>
 <h1 class="txt_breast" id="showcase_title" >Breast Cancer Care</h1><hr>
 <img id="homepic" class="animated slideInDown" src="pics/cover.jpg">
-
 <!--<div><a href="#home"  class="ui-btn ui-mini" id="VISIT" >Visit App</a></div>-->
-
 <div class="animated slideInUp">
 <p class="welcome" style="text-align: center;">WELCOME </p>
 </div>
-
 </center>
-
+<div><a href="#home"  class="ui-btn ui-mini" data-transition="pop" id="login">Continue without login</a></div>
 <div><a href="#loginpage"  class="ui-btn ui-mini" data-transition="pop" id="login">Log In</a></div>
 <div><a href="#register"  class="ui-btn ui-mini" data-transition="pop" id="member" >Register</a></div>
 </div>
@@ -100,7 +97,6 @@
 <!--login script-->
         <script type="text/javascript">
            function UserLogin(){
-                          alert("login user Called");
                           var emaillogin_c=$("[name='emaillogin']").val();
                           var passwordlogin_c=$("[name='passwordlogin']").val();
                           var url = "http://localhost/BreastCancerApp/onlineData/index.php?operation=1&emaillogin="+emaillogin_c+"&passwordlogin="+passwordlogin_c;
@@ -116,7 +112,6 @@
                               });
                       }
             function insertUser(){
-                alert("insert Book Called");
                 var firstname_c=$("[name='firstname']").val();
                 var lastname_c=$("[name='lastname']").val();
                 var email_c=$("[name='email']").val();
@@ -131,8 +126,6 @@
                 response=data;
                 $("#p_result").text(response);
                 window.location.href = "#home";
-            
-            
                     });
             }
         </script>
@@ -153,7 +146,6 @@
 </div>
 <!---------register-->
 <!--register script-->
-
 <!--/register script-->
 <div data-role="page" data-theme="a" id="register" >
  <center><h1 class="">Register Here!</h1></center>
@@ -162,7 +154,6 @@
 <form method="post" action="#home" data-ajax="false">
 <label for="firstname">First Name<span style="color:red;">*</span></label>
 <input type="text" name="firstname" id="fname" placeholder="first name">
-
 <label for="lastname">Last Name<span style="color:red;">*</span></label>
 <input type="text" name="lastname" id="lastname" placeholder="last name">
 
@@ -190,34 +181,15 @@
   <h2>Breast cancer awareness</h2>
 </div>
 </div>
-  
 <!----/register------------>  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div data-role="page" id="home" data-title="Breast Cancer App" data-url="panel-fixed-page1">
 <div data-role="header" data-position="fixed" >
 <a href="#left-panel"><img id="img2" src="images/iconbar.png"></a>
-
 <img id="img1" src="images/logo.png">
-
 </div>
 <!-- /header -->
 <div role="main" class="ui-content jqm-content jqm-fullwidth">
 <div role="main" class="ui-content jqm-content jqm-fullwidth" >
-
 <h1 id="showcase_title">Breast Cancer Care</h1>
     <!-- body -->
     <div class="home-demo">
@@ -313,91 +285,6 @@
 </div>
 </div>
 <!--end of homepage-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  <!--awareness page-->   
 <div data-role="page" id="aware" data-title="Breast Cancer App" data-url="panel-fixed-page1">
 <div data-role="header" data-position="fixed" >
@@ -668,7 +555,7 @@ Breasts that are evenly shaped without visible distortion or swelling</p>
   if(navigator.geolocation == undefined){
     alert("Geolocation undefined");
   }else{
-   // alert("Geolocation Available");
+   alert("Geolocation Available");
     //missing code 1: call to getCurrentPosition function
     navigator.geolocation.getCurrentPosition(userLocated,locationError);
     //missing code 2: define function userLocated
